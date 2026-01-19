@@ -2,13 +2,11 @@
 #include <string>
 using namespace std;
 
-
 class User {
 public:
     int id;
     string name;
     bool active;
-    
     User* left;
     User* right;
 
@@ -19,4 +17,6 @@ public:
         left = NULL;
         right = NULL;
     }
+
+
 };
